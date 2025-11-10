@@ -1,0 +1,124 @@
+{
+  "announcements": [
+    {
+      "id": "ann_001_welcome",
+      "title": "Welcome to Owl.md Notifications! 🎉",
+      "message": "We're excited to introduce our new in-app notification system! You'll now receive updates about new features, important changes, and helpful tips directly in the app. Check back here regularly to stay informed about what's new with Owl.md.",
+      "type": "info",
+      "timestamp": "2025-11-10T12:00:00Z",
+      "version": "1.3.0",
+      "actionUrl": null,
+      "isImportant": false
+    },
+    {
+      "id": "ann_002_dark_mode",
+      "title": "New Feature: Enhanced Dark Mode Support",
+      "message": "We've completely redesigned the dark mode experience! The new dark theme offers better contrast, reduced eye strain, and a more cohesive color palette across all screens. Try it out by tapping the theme toggle in the top bar.",
+      "type": "feature",
+      "timestamp": "2025-11-09T14:30:00Z",
+      "version": "1.3.0",
+      "actionUrl": null,
+      "isImportant": false
+    },
+    {
+      "id": "ann_003_performance",
+      "title": "Update: Performance Improvements",
+      "message": "This update includes significant performance optimizations for large markdown documents. You should notice faster rendering in preview mode and smoother scrolling when editing. PDF generation is also 30% faster on average!",
+      "type": "update",
+      "timestamp": "2025-11-08T10:15:00Z",
+      "version": "1.2.5",
+      "actionUrl": null,
+      "isImportant": false
+    },
+    {
+      "id": "ann_004_callouts",
+      "title": "New Feature: More Callout Types",
+      "message": "We've added new callout block types to help organize your content better! Try using ⚡TIP, 📄NOTE, ⚠️WARN, ℹ️INFO, ❓QUES, ✓SUCC, ⛔DANG, 📝EXAM, 💬QUOT, and 📌CALL in your markdown files for beautifully styled callout blocks in your PDFs.",
+      "type": "feature",
+      "timestamp": "2025-11-07T16:45:00Z",
+      "version": "1.2.0",
+      "actionUrl": null,
+      "isImportant": false
+    },
+    {
+      "id": "ann_005_github_integration",
+      "title": "Feature: Load Markdown from GitHub URLs",
+      "message": "You can now load markdown files directly from GitHub! Just paste a GitHub URL and we'll fetch the content for you. Perfect for collaborative editing and sharing documents from your repositories.",
+      "type": "feature",
+      "timestamp": "2025-11-06T09:20:00Z",
+      "version": "1.1.0",
+      "actionUrl": null,
+      "isImportant": false
+    },
+    {
+      "id": "ann_006_pdf_themes",
+      "title": "Update: New PDF Theme - Modern",
+      "message": "Check out our brand new 'Modern' PDF theme! It features a clean, contemporary design with optimized typography and spacing. Great for professional documents and presentations. Access it from the PDF theme selector.",
+      "type": "update",
+      "timestamp": "2025-11-05T11:00:00Z",
+      "version": "1.1.0",
+      "actionUrl": null,
+      "isImportant": false
+    },
+    {
+      "id": "ann_007_landscape_fix",
+      "title": "Update: Landscape Mode Optimizations",
+      "message": "We've optimized the app for landscape orientation on mobile devices! The quick actions menu, more menu, and editor panels now adapt intelligently to landscape mode, providing a better experience when using your device horizontally.",
+      "type": "update",
+      "timestamp": "2025-11-04T13:30:00Z",
+      "version": "1.2.8",
+      "actionUrl": null,
+      "isImportant": false
+    },
+    {
+      "id": "ann_008_backup_reminder",
+      "title": "Important: Remember to Back Up Your Work",
+      "message": "While Owl.md saves your documents locally, we recommend regularly backing up important files to cloud storage or external drives. Use the 'Save As' feature to export your markdown files and keep them safe!",
+      "type": "important",
+      "timestamp": "2025-11-03T08:00:00Z",
+      "version": null,
+      "actionUrl": null,
+      "isImportant": true
+    },
+    {
+      "id": "ann_009_file_history",
+      "title": "Feature: File History & Quick Access",
+      "message": "Your recently opened files are now saved in the file history! Access them quickly from the history drawer (swipe from left edge or tap the menu). Never lose track of your work again.",
+      "type": "feature",
+      "timestamp": "2025-11-02T15:45:00Z",
+      "version": "1.0.5",
+      "actionUrl": null,
+      "isImportant": false
+    },
+    {
+      "id": "ann_010_tips_formatting",
+      "title": "Tip: Keyboard Shortcuts for Formatting",
+      "message": "Did you know? Long-press any formatting button in the toolbar to see keyboard shortcuts! Make your markdown editing faster with shortcuts for bold, italic, headings, lists, and more.",
+      "type": "info",
+      "timestamp": "2025-11-01T10:30:00Z",
+      "version": null,
+      "actionUrl": null,
+      "isImportant": false
+    },
+    {
+      "id": "ann_011_share_pdf",
+      "title": "Feature: Direct PDF Sharing",
+      "message": "You can now share your generated PDFs directly from the app! After converting to PDF, use the share button to send your document via email, messaging apps, or save to cloud storage.",
+      "type": "feature",
+      "timestamp": "2025-10-31T14:15:00Z",
+      "version": "1.0.0",
+      "actionUrl": null,
+      "isImportant": false
+    },
+    {
+      "id": "ann_012_code_blocks",
+      "title": "Update: Improved Code Block Rendering",
+      "message": "Code blocks in PDFs now look even better! We've improved syntax highlighting support and fixed formatting issues with long lines. Your code snippets will now render perfectly in all PDF themes.",
+      "type": "update",
+      "timestamp": "2025-10-30T09:45:00Z",
+      "version": "1.1.5",
+      "actionUrl": null,
+      "isImportant": false
+    }
+  ]
+}
