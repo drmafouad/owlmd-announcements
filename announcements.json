@@ -129,6 +129,16 @@
       "version": "1.0.0",
       "actionUrl": null,
       "isImportant": true
+    },
+    {
+      "id": "ann_014_notification_system_fixes",
+      "title": "Update: New Notification Center Implementation",
+      "message": "Now notifications are sorted by time and date, new announcements first. Only new notifications is counted",
+      "type": "update",
+      "timestamp": "2025-11-11T21:45:00Z",
+      "version": "1.0.0",
+      "actionUrl": null,
+      "isImportant": true
     }
     
   ]
