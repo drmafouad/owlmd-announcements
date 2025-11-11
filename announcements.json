@@ -122,9 +122,9 @@
     },
     {
       "id": "ann_013_notification_system",
-      "title": "Update: New Notification Center Implementation",
+      "title": "Feature: New Notification Center Implementation",
       "message": "New Notification System Implementation. App now receives notifications from main channel regard updates and announcements",
-      "type": "update",
+      "type": "feature",
       "timestamp": "2025-11-9T09:45:00Z",
       "version": "1.0.0",
       "actionUrl": null,
