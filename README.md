@@ -1,2 +1,0 @@
-# owlmd-announcements
-owlmd-announcements
