@@ -1,6 +1,16 @@
 {
   "announcements": [
     {
+      "id": "update_1.0.11",
+      "title": "Version 1.0.11: Improved Top Bar! 🎨",
+      "message": "We've redesigned the top bar for a better experience! The app bar is now fixed to the top edge (no more floating), giving you more screen space and better visual hierarchy. We've also simplified the design with a clean, flat look. Plus, we fixed the file rename feature - tap the filename to rename your documents!",
+      "type": "update",
+      "timestamp": "2025-11-16T15:45:00Z",
+      "version": "1.0.11",
+      "actionUrl": null,
+      "isImportant": false
+    },
+    {
       "id": "welcome_001",
       "title": "Welcome to Owl.md! 🦉",
       "message": "Thank you for choosing Owl.md - your markdown to PDF converter! We're excited to help you create beautiful PDFs from markdown. This notification center will show you helpful tips and important updates. Let's get started!",
@@ -42,8 +52,8 @@
     },
     {
       "id": "tip_004_file_management",
-      "title": "File Management: Load & Save",
-      "message": "Tap the folder icon (📁) to load existing markdown files from your device. Use 'More Menu (⋮) → Save As' to save your work. Your recent files are automatically saved in the file history!",
+      "title": "File Management: Open & Save",
+      "message": "Tap the folder icon (📁) to open existing markdown files from your device. Use 'More Menu (⋮) → Save As' to save your work. Your recent files are automatically saved in the file history!",
       "type": "info",
       "timestamp": "2025-11-14T00:04:00Z",
       "version": "1.0.0",
@@ -52,8 +62,8 @@
     },
     {
       "id": "tip_005_github",
-      "title": "Load from GitHub: Import Markdown Files",
-      "message": "You can load markdown files directly from GitHub! Tap 'Quick Actions (⚡) → Load from GitHub URL', paste any GitHub markdown URL, and we'll fetch it for you. Perfect for collaborative editing!",
+      "title": "Load from GitHub: Import from Public Repos",
+      "message": "You can load markdown files directly from public GitHub repositories! Tap 'Quick Actions (⚡) → Load from GitHub URL', paste any public GitHub markdown URL, and we'll fetch it for you. Note: Only works with public repos, not private ones!",
       "type": "info",
       "timestamp": "2025-11-14T00:05:00Z",
       "version": "1.0.0",
