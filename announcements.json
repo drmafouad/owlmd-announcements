@@ -1,19 +1,69 @@
 {
   "announcements": [
     {
-      "id": "update_1.0.11",
-      "title": "Version 1.0.11: Improved Top Bar! 🎨",
-      "message": "We've redesigned the top bar for a better experience! The app bar is now fixed to the top edge (no more floating), giving you more screen space and better visual hierarchy. We've also simplified the design with a clean, flat look. Plus, we fixed the file rename feature - tap the filename to rename your documents!",
+      "id": "update_1.1.50",
+      "title": "🎉 Version 1.1.50: Major Update!",
+      "message": "Huge update with professional features! ✨ NEW: Clickable links in PDFs, Image insertion (local & URLs), Auto Table of Contents, YAML frontmatter with title pages, Page numbers, BiDi/RTL support for Arabic, Enhanced formatting toolbar with indent/unindent, Improved split view animations. Plus: Bug fixes for link opening in preview and better code block rendering!",
       "type": "update",
-      "timestamp": "2025-11-16T15:45:00Z",
-      "version": "1.0.11",
+      "timestamp": "2025-12-16T00:00:00Z",
+      "version": "1.1.50",
+      "actionUrl": null,
+      "isImportant": true
+    },
+    {
+      "id": "feature_clickable_links",
+      "title": "🔗 Clickable Links in PDFs",
+      "message": "All markdown links ([text](url)) are now clickable in your PDFs! Click any link in your PDF viewer to open it in your browser. Perfect for creating interactive documents, references, and documentation.",
+      "type": "feature",
+      "timestamp": "2025-12-16T00:01:00Z",
+      "version": "1.1.50",
+      "actionUrl": null,
+      "isImportant": false
+    },
+    {
+      "id": "feature_images",
+      "title": "🖼️ Image Support",
+      "message": "Embed images in your PDFs! Use ![alt](path) for local images or ![alt](https://url) for web images. Images are automatically downloaded and embedded. Supports PNG and JPG formats.",
+      "type": "feature",
+      "timestamp": "2025-12-16T00:02:00Z",
+      "version": "1.1.50",
+      "actionUrl": null,
+      "isImportant": false
+    },
+    {
+      "id": "feature_toc",
+      "title": "📑 Auto Table of Contents",
+      "message": "PDFs now include an automatic Table of Contents generated from your headers (H1-H6)! The TOC appears at the start of your document with hierarchical indentation and clickable entries.",
+      "type": "feature",
+      "timestamp": "2025-12-16T00:03:00Z",
+      "version": "1.1.50",
+      "actionUrl": null,
+      "isImportant": false
+    },
+    {
+      "id": "feature_frontmatter",
+      "title": "📄 YAML Frontmatter & Title Pages",
+      "message": "Add document metadata with YAML frontmatter! Use:\n---\ntitle: My Document\nauthor: Your Name\ndate: 2025-12-16\nversion: 1.0\n---\n\nA beautiful title page will be automatically generated in your PDF!",
+      "type": "feature",
+      "timestamp": "2025-12-16T00:04:00Z",
+      "version": "1.1.50",
+      "actionUrl": null,
+      "isImportant": false
+    },
+    {
+      "id": "feature_bidi",
+      "title": "🌍 BiDi/RTL Support for Arabic",
+      "message": "Full support for right-to-left (RTL) languages! Toggle RTL mode from the More Menu (⋮) for perfect Arabic text rendering in both preview and PDFs. Supports mixed Arabic-English text correctly.",
+      "type": "feature",
+      "timestamp": "2025-12-16T00:05:00Z",
+      "version": "1.1.50",
       "actionUrl": null,
       "isImportant": false
     },
     {
       "id": "welcome_001",
       "title": "Welcome to Owl.md! 🦉",
-      "message": "Thank you for choosing Owl.md - your markdown to PDF converter! We're excited to help you create beautiful PDFs from markdown. This notification center will show you helpful tips and important updates. Let's get started!",
+      "message": "Thank you for choosing Owl.md - your markdown to PDF converter! We're excited to help you create beautiful PDFs from markdown. Check the announcements here for tips, updates, and new features!",
       "type": "info",
       "timestamp": "2025-11-14T00:00:00Z",
       "version": "1.0.0",
@@ -21,29 +71,9 @@
       "isImportant": true
     },
     {
-      "id": "tip_001_quick_start",
-      "title": "Quick Start: Create Your First PDF",
-      "message": "Creating a PDF is easy! Type or paste your markdown in the editor → Tap 'Preview' to see how it looks → Tap 'Convert to PDF' → Choose a theme → Save or share your PDF. It's that simple!",
-      "type": "info",
-      "timestamp": "2025-11-14T00:01:00Z",
-      "version": "1.0.0",
-      "actionUrl": null,
-      "isImportant": false
-    },
-    {
-      "id": "tip_002_formatting",
-      "title": "Formatting Toolbar: Quick Access",
-      "message": "Use the formatting toolbar at the bottom of the editor for quick access to: Bold (B), Italic (I), Headings (H), Checklists, Code blocks, Blockquotes, Bullet lists, and Numbered lists. Tap any button to insert the formatting!",
-      "type": "info",
-      "timestamp": "2025-11-14T00:02:00Z",
-      "version": "1.0.0",
-      "actionUrl": null,
-      "isImportant": false
-    },
-    {
-      "id": "tip_003_themes",
-      "title": "PDF Themes: Choose Your Style",
-      "message": "Owl.md offers 4 professional PDF themes: Professional (blue, corporate), Modern (amber, contemporary), Minimalist (gray, clean), and Classic (brown, traditional). Each theme is optimized for different document types!",
+      "id": "tip_themes",
+      "title": "🎨 PDF Themes: Choose Your Style",
+      "message": "Owl.md offers 4 professional PDF themes: Professional (Inter font, blue accents), Modern (Asap font, orange accents), Minimalist (Ubuntu font, black/gray), and Classic (Noto Serif, ivory background). Each theme is optimized for different document types!",
       "type": "info",
       "timestamp": "2025-11-14T00:03:00Z",
       "version": "1.0.0",
@@ -51,19 +81,19 @@
       "isImportant": false
     },
     {
-      "id": "tip_004_file_management",
-      "title": "File Management: Open & Save",
-      "message": "Tap the folder icon (📁) to open existing markdown files from your device. Use 'More Menu (⋮) → Save As' to save your work. Your recent files are automatically saved in the file history!",
+      "id": "tip_formatting",
+      "title": "⌨️ Formatting Toolbar",
+      "message": "Use the formatting toolbar for quick access to: Bold, Italic, Headers, Code, Blockquotes, Lists, Tables, Callouts, Indent/Unindent, and more! The toolbar appears in edit mode on all screen sizes.",
       "type": "info",
-      "timestamp": "2025-11-14T00:04:00Z",
+      "timestamp": "2025-11-14T00:02:00Z",
       "version": "1.0.0",
       "actionUrl": null,
       "isImportant": false
     },
     {
-      "id": "tip_005_github",
-      "title": "Load from GitHub: Import from Public Repos",
-      "message": "You can load markdown files directly from public GitHub repositories! Tap 'Quick Actions (⚡) → Load from GitHub URL', paste any public GitHub markdown URL, and we'll fetch it for you. Note: Only works with public repos, not private ones!",
+      "id": "tip_github",
+      "title": "📦 Load from GitHub",
+      "message": "Load markdown files directly from public GitHub repositories! Tap 'Quick Actions (⚡) → Load from GitHub URL', paste any public GitHub markdown URL, and we'll fetch it for you. Only works with public repos!",
       "type": "info",
       "timestamp": "2025-11-14T00:05:00Z",
       "version": "1.0.0",
@@ -71,79 +101,9 @@
       "isImportant": false
     },
     {
-      "id": "tip_006_preview",
-      "title": "Preview Mode: See Before Converting",
-      "message": "Always check your document in Preview mode before converting to PDF! Switch between Edit and Preview tabs to see exactly how your markdown will look. What you see in preview is what you get in the PDF!",
-      "type": "info",
-      "timestamp": "2025-11-14T00:06:00Z",
-      "version": "1.0.0",
-      "actionUrl": null,
-      "isImportant": false
-    },
-    {
-      "id": "tip_007_callouts",
-      "title": "Callout Blocks: Highlight Important Info",
-      "message": "Create eye-catching callout blocks in your PDFs! Use: ⚡TIP (tips), 📄NOTE (notes), ⚠️WARN (warnings), ℹ️INFO (information), ❓QUES (questions), ✓SUCC (success), ⛔DANG (danger), 📝EXAM (examples), 💬QUOT (quotes), 📌CALL (callouts).",
-      "type": "info",
-      "timestamp": "2025-11-14T00:07:00Z",
-      "version": "1.0.0",
-      "actionUrl": null,
-      "isImportant": false
-    },
-    {
-      "id": "tip_008_tables",
-      "title": "Tables: Organize Your Data",
-      "message": "Owl.md supports markdown tables! Create tables using pipes (|) and hyphens (-). Example:\n| Header 1 | Header 2 |\n|----------|----------|\n| Cell 1   | Cell 2   |\nTables render beautifully in all PDF themes!",
-      "type": "info",
-      "timestamp": "2025-11-14T00:08:00Z",
-      "version": "1.0.0",
-      "actionUrl": null,
-      "isImportant": false
-    },
-    {
-      "id": "tip_009_code_blocks",
-      "title": "Code Blocks: Share Your Code Beautifully",
-      "message": "Include code in your documents with proper formatting! Use triple backticks (```) for code blocks. Example:\n```python\nprint('Hello World')\n```\nCode blocks are syntax-highlighted and properly formatted in PDFs!",
-      "type": "info",
-      "timestamp": "2025-11-14T00:09:00Z",
-      "version": "1.0.0",
-      "actionUrl": null,
-      "isImportant": false
-    },
-    {
-      "id": "tip_010_sharing",
-      "title": "Sharing: Send Your PDFs Anywhere",
-      "message": "After converting to PDF, tap the share button to send your document via email, messaging apps, or save to cloud storage like Google Drive or Dropbox. Your PDFs are ready to share instantly!",
-      "type": "info",
-      "timestamp": "2025-11-14T00:10:00Z",
-      "version": "1.0.0",
-      "actionUrl": null,
-      "isImportant": false
-    },
-    {
-      "id": "tip_011_dark_mode",
-      "title": "Dark Mode: Reduce Eye Strain",
-      "message": "Working at night? Enable dark mode by tapping the theme toggle icon in the top bar. Dark mode is designed to reduce eye strain and save battery on OLED screens!",
-      "type": "info",
-      "timestamp": "2025-11-14T00:11:00Z",
-      "version": "1.0.0",
-      "actionUrl": null,
-      "isImportant": false
-    },
-    {
-      "id": "tip_012_offline",
-      "title": "Works Offline: No Internet Required",
-      "message": "Owl.md works completely offline! Create, edit, preview, and convert PDFs without an internet connection. All your data stays on your device - we don't collect or send any personal information.",
-      "type": "info",
-      "timestamp": "2025-11-14T00:12:00Z",
-      "version": "1.0.0",
-      "actionUrl": null,
-      "isImportant": false
-    },
-    {
-      "id": "tip_013_privacy",
-      "title": "Privacy First: Your Data Stays Private",
-      "message": "We take your privacy seriously! Owl.md doesn't collect any personal data, doesn't use analytics or tracking, and all your documents stay on your device. No cloud sync, no data sharing - just pure privacy!",
+      "id": "tip_privacy",
+      "title": "🔒 Privacy First",
+      "message": "Owl.md doesn't collect any personal data, doesn't use analytics or tracking, and all your documents stay on your device. Works completely offline. No cloud sync, no data sharing - just pure privacy!",
       "type": "important",
       "timestamp": "2025-11-14T00:13:00Z",
       "version": "1.0.0",
@@ -151,21 +111,21 @@
       "isImportant": true
     },
     {
-      "id": "tip_014_support",
-      "title": "Need Help? We're Here for You!",
-      "message": "Have questions, found a bug, or want to request a feature? Tap 'More Menu (⋮)' and choose 'Report a Bug', 'Request a Feature', or 'Get Help'. You can also email us at support@injazapps.com anytime!",
+      "id": "tip_user_guide",
+      "title": "📚 User Guide",
+      "message": "Want to learn all features? Tap 'More Menu (⋮) → User Guide' to access the complete manual covering markdown syntax, PDF themes, tips & tricks, and troubleshooting!",
       "type": "info",
-      "timestamp": "2025-11-14T00:14:00Z",
+      "timestamp": "2025-11-14T00:15:00Z",
       "version": "1.0.0",
       "actionUrl": null,
       "isImportant": false
     },
     {
-      "id": "tip_015_user_guide",
-      "title": "User Guide: Learn All Features",
-      "message": "Want to learn more? Tap 'More Menu (⋮) → User Guide' to access the complete user manual. It covers all features, tips, and tricks to help you get the most out of Owl.md!",
+      "id": "tip_support",
+      "title": "💬 Need Help?",
+      "message": "Have questions or feedback? Tap 'More Menu (⋮)' to report bugs, request features, or get help. You can also email us at support@injazapps.com anytime!",
       "type": "info",
-      "timestamp": "2025-11-14T00:15:00Z",
+      "timestamp": "2025-11-14T00:14:00Z",
       "version": "1.0.0",
       "actionUrl": null,
       "isImportant": false
