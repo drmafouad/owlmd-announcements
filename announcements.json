@@ -1,6 +1,36 @@
 {
   "announcements": [
     {
+      "id": "update_1.1.53",
+      "title": "🎉 Version 1.1.53: Smart Paragraph Breaking & Enhanced Selection!",
+      "message": "Major productivity update! ✨ NEW: Auto-break long paragraphs with intelligent sentence detection (never worry about 'widget too tall' errors again!), Enhanced text selection on Android with 2x larger handles (44dp for easier selection), Smart error messages with one-click auto-fix, Better permission handling. Perfect for academic papers, research documents, and long-form content!",
+      "type": "update",
+      "timestamp": "2025-12-26T00:00:00Z",
+      "version": "1.1.53",
+      "actionUrl": null,
+      "isImportant": true
+    },
+    {
+      "id": "feature_paragraph_breaking",
+      "title": "✂️ Auto-Break Long Paragraphs",
+      "message": "Say goodbye to PDF generation errors! When a paragraph is too long to fit on one page, Owl.md now shows a helpful dialog with an 'Auto-Fix' button that intelligently breaks paragraphs at sentence boundaries. You can also use the new wrap icon (📝) in the toolbar to proactively break long paragraphs before generating PDFs. Detects abbreviations (Dr., U.S.), preserves code blocks, lists, and tables. Perfect for academic papers, research documents, and long-form content!",
+      "type": "feature",
+      "timestamp": "2025-12-26T00:01:00Z",
+      "version": "1.1.53",
+      "actionUrl": null,
+      "isImportant": false
+    },
+    {
+      "id": "feature_enhanced_text_selection",
+      "title": "👆 Better Text Selection on Android",
+      "message": "Android users can now enjoy 2x larger selection handles (44dp vs 22dp) making it much easier to select text with your fingers! The enhanced handles have better touch targets (60dp touch area), smoother interactions, and theme-aware styling. No more struggling with tiny handles when editing on mobile!",
+      "type": "feature",
+      "timestamp": "2025-12-26T00:02:00Z",
+      "version": "1.1.53",
+      "actionUrl": null,
+      "isImportant": false
+    },
+    {
       "id": "update_1.1.50",
       "title": "🎉 Version 1.1.50: Major Update!",
       "message": "Huge update with professional features! ✨ NEW: Clickable links in PDFs, Image insertion (local & URLs), Auto Table of Contents, YAML frontmatter with title pages, Page numbers, BiDi/RTL support for Arabic, Enhanced formatting toolbar with indent/unindent, Improved split view animations. Plus: Bug fixes for link opening in preview and better code block rendering!",
