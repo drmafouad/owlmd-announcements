@@ -1,6 +1,46 @@
 {
   "announcements": [
     {
+      "id": "update_1.1.54",
+      "title": "🔧 Version 1.1.54: Critical Bug Fixes!",
+      "message": "Important stability update! 🛠️ FIXED: Auto-save & History now persist correctly after app restart (no more lost preferences!), File history saving error resolved (unmodifiable list crash fixed), Notification auto-mark timing improved with 1-second delay. These fixes ensure your preferences, PDF theme, and last opened file are always preserved. Update now for a more reliable experience!",
+      "type": "update",
+      "timestamp": "2025-12-28T00:00:00Z",
+      "version": "1.1.54",
+      "actionUrl": null,
+      "isImportant": true
+    },
+    {
+      "id": "fix_preferences_persistence",
+      "title": "💾 Preferences Now Persist After Restart",
+      "message": "Fixed critical bug where PDF theme, last opened file, and history were lost after force-closing the app! The issue was caused by async preference loading not completing before the UI was built. Now all your preferences are properly loaded and preserved across app restarts. No more re-selecting your favorite theme every time!",
+      "type": "update",
+      "timestamp": "2025-12-28T00:01:00Z",
+      "version": "1.1.54",
+      "actionUrl": null,
+      "isImportant": false
+    },
+    {
+      "id": "fix_history_crash",
+      "title": "🛡️ History Saving Crash Fixed",
+      "message": "Resolved 'Cannot remove from an unmodifiable list' error that occurred when auto-saving files. The file history service now creates mutable copies of lists, preventing crashes when adding or updating file history. Your document history will now save reliably every time!",
+      "type": "update",
+      "timestamp": "2025-12-28T00:02:00Z",
+      "version": "1.1.54",
+      "actionUrl": null,
+      "isImportant": false
+    },
+    {
+      "id": "fix_notification_timing",
+      "title": "⏱️ Better Notification Auto-Mark Timing",
+      "message": "Notifications now wait 1 second before automatically marking as read when you expand them. This gives you time to actually read the announcement! The timer is properly canceled if you collapse the card before 1 second, preventing premature marking. Includes proper cleanup to prevent memory leaks.",
+      "type": "update",
+      "timestamp": "2025-12-28T00:03:00Z",
+      "version": "1.1.54",
+      "actionUrl": null,
+      "isImportant": false
+    },
+    {
       "id": "update_1.1.53",
       "title": "🎉 Version 1.1.53: Smart Paragraph Breaking & Enhanced Selection!",
       "message": "Major productivity update! ✨ NEW: Auto-break long paragraphs with intelligent sentence detection (never worry about 'widget too tall' errors again!), Enhanced text selection on Android with 2x larger handles (44dp for easier selection), Smart error messages with one-click auto-fix, Better permission handling. Perfect for academic papers, research documents, and long-form content!",
