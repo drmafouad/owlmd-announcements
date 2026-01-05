@@ -11,17 +11,7 @@
       "isImportant": false,
       "isMandatoryUpdate": false
     },
-    {
-      "id": "test_mandatory_update",
-      "title": "⚠️ Critical Update Required",
-      "message": "This update contains critical security fixes and must be installed to continue using the app. Please update now from the Play Store.",
-      "type": "update",
-      "timestamp": "2026-01-05T11:00:00Z",
-      "minimumRequiredVersion": "99.0.0",
-      "actionUrl": "https://play.google.com/store/apps/details?id=com.injazapps.owlmd",
-      "isImportant": true,
-      "isMandatoryUpdate": true
-    },
+    
     {
       "id": "update_1.1.54",
       "title": "🔧 Version 1.1.54: Critical Bug Fixes!",
