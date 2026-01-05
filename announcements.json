@@ -12,14 +12,55 @@
       "isMandatoryUpdate": false
     },
     {
+      "id": "test_mandatory_update",
+      "title": "⚠️ Critical Update Required",
+      "message": "This update contains critical security fixes and must be installed to continue using the app. Please update now from the Play Store.",
+      "type": "update",
+      "timestamp": "2026-01-05T11:00:00Z",
+      "minimumRequiredVersion": "99.0.0",
+      "actionUrl": "https://play.google.com/store/apps/details?id=com.injazapps.owlmd",
+      "isImportant": true,
+      "isMandatoryUpdate": true
+    },
+    {
       "id": "update_1.1.54",
       "title": "🔧 Version 1.1.54: Critical Bug Fixes!",
       "message": "Important stability update! 🛠️ FIXED: Auto-save & History now persist correctly after app restart (no more lost preferences!), File history saving error resolved (unmodifiable list crash fixed), Notification auto-mark timing improved with 1-second delay. These fixes ensure your preferences, PDF theme, and last opened file are always preserved. Update now for a more reliable experience!",
       "type": "update",
       "timestamp": "2025-12-28T00:00:00Z",
       "version": "1.1.54",
-      "actionUrl": "https://play.google.com/store/apps/details?id=com.injazapps.owlmd",
+      "actionUrl": null,
       "isImportant": true
+    },
+    {
+      "id": "fix_preferences_persistence",
+      "title": "💾 Preferences Now Persist After Restart",
+      "message": "Fixed critical bug where PDF theme, last opened file, and history were lost after force-closing the app! The issue was caused by async preference loading not completing before the UI was built. Now all your preferences are properly loaded and preserved across app restarts. No more re-selecting your favorite theme every time!",
+      "type": "update",
+      "timestamp": "2025-12-28T00:01:00Z",
+      "version": "1.1.54",
+      "actionUrl": null,
+      "isImportant": false
+    },
+    {
+      "id": "fix_history_crash",
+      "title": "🛡️ History Saving Crash Fixed",
+      "message": "Resolved 'Cannot remove from an unmodifiable list' error that occurred when auto-saving files. The file history service now creates mutable copies of lists, preventing crashes when adding or updating file history. Your document history will now save reliably every time!",
+      "type": "update",
+      "timestamp": "2025-12-28T00:02:00Z",
+      "version": "1.1.54",
+      "actionUrl": null,
+      "isImportant": false
+    },
+    {
+      "id": "fix_notification_timing",
+      "title": "⏱️ Better Notification Auto-Mark Timing",
+      "message": "Notifications now wait 1 second before automatically marking as read when you expand them. This gives you time to actually read the announcement! The timer is properly canceled if you collapse the card before 1 second, preventing premature marking. Includes proper cleanup to prevent memory leaks.",
+      "type": "update",
+      "timestamp": "2025-12-28T00:03:00Z",
+      "version": "1.1.54",
+      "actionUrl": null,
+      "isImportant": false
     },
     {
       "id": "update_1.1.53",
@@ -44,7 +85,7 @@
     {
       "id": "feature_enhanced_text_selection",
       "title": "👆 Better Text Selection on Android",
-      "message": "Android users can now enjoy 2x larger selection handles. The enhanced handles have better touch targets (60dp touch area), smoother interactions, and theme-aware styling. No more struggling with tiny handles when editing on mobile!",
+      "message": "Android users can now enjoy 2x larger selection handles (44dp vs 22dp) making it much easier to select text with your fingers! The enhanced handles have better touch targets (60dp touch area), smoother interactions, and theme-aware styling. No more struggling with tiny handles when editing on mobile!",
       "type": "feature",
       "timestamp": "2025-12-26T00:02:00Z",
       "version": "1.1.53",
@@ -60,6 +101,16 @@
       "version": "1.1.50",
       "actionUrl": null,
       "isImportant": true
+    },
+    {
+      "id": "feature_clickable_links",
+      "title": "🔗 Clickable Links in PDFs",
+      "message": "All markdown links ([text](url)) are now clickable in your PDFs! Click any link in your PDF viewer to open it in your browser. Perfect for creating interactive documents, references, and documentation.",
+      "type": "feature",
+      "timestamp": "2025-12-16T00:01:00Z",
+      "version": "1.1.50",
+      "actionUrl": null,
+      "isImportant": false
     },
     {
       "id": "feature_images",
@@ -140,6 +191,16 @@
       "version": "1.0.0",
       "actionUrl": null,
       "isImportant": false
+    },
+    {
+      "id": "tip_privacy",
+      "title": "🔒 Privacy First",
+      "message": "Owl.md doesn't collect any personal data, doesn't use analytics or tracking, and all your documents stay on your device. Works completely offline. No cloud sync, no data sharing - just pure privacy!",
+      "type": "important",
+      "timestamp": "2025-11-14T00:13:00Z",
+      "version": "1.0.0",
+      "actionUrl": null,
+      "isImportant": true
     },
     {
       "id": "tip_user_guide",
