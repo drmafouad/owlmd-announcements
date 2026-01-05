@@ -1,18 +1,6 @@
 {
   "announcements": [
     {
-      "id": "test_optional_update",
-      "title": "🎉 New Version Available!",
-      "message": "Version 99.0.0 brings exciting new features and improvements. Update now to enjoy the latest enhancements, or continue using the current version - it's up to you!",
-      "type": "update",
-      "timestamp": "2026-01-05T12:00:00Z",
-      "version": "99.0.0",
-      "actionUrl": "https://play.google.com/store/apps/details?id=com.injazapps.owlmd",
-      "isImportant": false,
-      "isMandatoryUpdate": false
-    },
-    
-    {
       "id": "update_1.1.54",
       "title": "🔧 Version 1.1.54: Critical Bug Fixes!",
       "message": "Important stability update! 🛠️ FIXED: Auto-save & History now persist correctly after app restart (no more lost preferences!), File history saving error resolved (unmodifiable list crash fixed), Notification auto-mark timing improved with 1-second delay. These fixes ensure your preferences, PDF theme, and last opened file are always preserved. Update now for a more reliable experience!",
