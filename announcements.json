@@ -3,45 +3,12 @@
     {
       "id": "update_1.1.56",
       "title": "🚀 Version 1.1.56: Smart Update System & UI Enhancements!",
-      "message": "Major update with intelligent features! ✨ NEW: Smart mandatory/optional update notification system with force refresh on startup, Fixed persistent cached updates (4-hour cache with proper invalidation), Dynamic version display in app menu, Enhanced onboarding screen with improved UI/UX, Deprecated API fixes (withOpacity → withValues), Better code quality with const optimizations. Update now for improved stability and smoother user experience!",
+      "message": "Major update with intelligent features!",
       "type": "update",
       "timestamp": "2026-01-06T00:00:00Z",
       "version": "1.1.56",
       "actionUrl": "https://play.google.com/store/apps/details?id=com.injazapps.owlmd",
       "isImportant": true,
-      "isMandatoryUpdate": false
-    },
-    {
-      "id": "feature_update_system",
-      "title": "🔔 Smart Update Notification System",
-      "message": "Introducing intelligent update management! The app now checks for updates on startup with a 10-second timeout, shows mandatory update dialogs for critical updates (blocks app usage until updated), optional update dialogs for feature updates (can skip or remind later), and proper cache invalidation every 4 hours. Never miss important updates while staying in control of when you update!",
-      "type": "feature",
-      "timestamp": "2026-01-06T00:01:00Z",
-      "version": "1.1.56",
-      "actionUrl": "https://play.google.com/store/apps/details?id=com.injazapps.owlmd",
-      "isImportant": false,
-      "isMandatoryUpdate": false
-    },
-    {
-      "id": "fix_cache_invalidation",
-      "title": "🔧 Fixed Persistent Cached Updates",
-      "message": "Resolved issue where mandatory update dialogs appeared indefinitely even after updating! Fixed by adding cache age tracking, force refresh on app startup with timeout, proper cache clearing logic, and better version comparison. The app now correctly detects when you've updated and stops showing the update prompt.",
-      "type": "update",
-      "timestamp": "2026-01-06T00:02:00Z",
-      "version": "1.1.56",
-      "actionUrl": null,
-      "isImportant": false,
-      "isMandatoryUpdate": false
-    },
-    {
-      "id": "feature_dynamic_version",
-      "title": "📱 Dynamic Version Display",
-      "message": "The app version is now displayed dynamically in the unified menu! No more hardcoded version numbers - the app automatically shows the current installed version (e.g., 'v1.1.56'). Makes it easier to verify you're running the latest version.",
-      "type": "feature",
-      "timestamp": "2026-01-06T00:03:00Z",
-      "version": "1.1.56",
-      "actionUrl": null,
-      "isImportant": false,
       "isMandatoryUpdate": false
     },
     {
