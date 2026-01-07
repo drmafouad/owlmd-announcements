@@ -1,6 +1,17 @@
 {
   "announcements": [
     {
+      "id": "mandatory_update_1.1.58",
+      "title": "⚠️ Critical Update Required - Version 1.1.58",
+      "message": "This update contains critical bug fixes and improvements that must be installed to continue using the app.",
+      "type": "update",
+      "timestamp": "2026-01-07T00:00:00Z",
+      "minimumRequiredVersion": "1.1.58",
+      "actionUrl": "https://play.google.com/store/apps/details?id=com.injazapps.owlmd",
+      "isImportant": true,
+      "isMandatoryUpdate": true
+    },
+    {
       "id": "update_1.1.56",
       "title": "🚀 Version 1.1.56: Smart Update System & UI Enhancements!",
       "message": "Major update with intelligent features!",
