@@ -1,6 +1,17 @@
 {
   "announcements": [
     {
+      "id": "mandatory_update_1.1.60",
+      "title": "⚠️ Critical Update Required - Version 1.1.60",
+      "message": "fix and improvements regard sending files to app. NEW: Real-time syntax highlighting with subtle theme-aware colors.",
+      "type": "fix",
+      "timestamp": "2026-04-04T00:00:00Z",
+      "minimumRequiredVersion": "1.1.60",
+      "actionUrl": "https://play.google.com/store/apps/details?id=com.injazapps.owlmd",
+      "isImportant": true,
+      "isMandatoryUpdate": true
+    },
+    {
       "id": "mandatory_update_1.1.58",
       "title": "⚠️ Critical Update Required - Version 1.1.58",
       "message": "This update contains critical bug fixes and improvements that must be installed to continue using the app.",
