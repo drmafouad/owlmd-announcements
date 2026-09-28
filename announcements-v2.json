@@ -1,0 +1,24 @@
+{
+  "items": [
+    {
+      "id": "welcome-v2",
+      "publishAt": "2026-09-28T00:00:00Z",
+      "expireAt": null,
+      "severity": "info",
+      "title": {
+        "en": "Welcome to OwlMD v2",
+        "ar": "أهلاً بك في OwlMD الإصدار 2",
+        "id": "Selamat datang di OwlMD v2"
+      },
+      "body": {
+        "en": "Thanks for updating — your v1 documents were migrated automatically. Insert images, back up your library, and more.",
+        "ar": "شكرًا لتحديثك — تم ترحيل مستنداتك من الإصدار الأول تلقائيًا. أدرج الصور، وانسخ مكتبتك احتياطيًا، والمزيد.",
+        "id": "Terima kasih telah memperbarui — dokumen v1 Anda dimigrasikan secara otomatis. Sisipkan gambar, cadangkan pustaka Anda, dan lainnya."
+      },
+      "learnMoreUrl": null,
+      "minVersionCode": null,
+      "maxVersionCode": null,
+      "platform": null
+    }
+  ]
+}
