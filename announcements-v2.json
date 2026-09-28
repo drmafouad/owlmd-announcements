@@ -1,23 +1,43 @@
 {
   "items": [
     {
-      "id": "welcome-v2",
-      "publishAt": "2026-09-28T00:00:00Z",
-      "expireAt": null,
+      "id": "info-live-test",
+      "publishAt": "2026-09-27T00:00:00Z",
+      "expireAt": "2026-10-28T00:00:00Z",
       "severity": "info",
       "title": {
-        "en": "Welcome to OwlMD v2",
-        "ar": "أهلاً بك في OwlMD الإصدار 2",
-        "id": "Selamat datang di OwlMD v2"
+        "en": "OwlMD v2's announcement feed is live",
+        "ar": "خلاصة إعلانات OwlMD الإصدار 2 أصبحت مباشرة الآن",
+        "id": "Feed pengumuman OwlMD v2 kini aktif"
       },
       "body": {
-        "en": "Thanks for updating — your v1 documents were migrated automatically. Insert images, back up your library, and more.",
-        "ar": "شكرًا لتحديثك — تم ترحيل مستنداتك من الإصدار الأول تلقائيًا. أدرج الصور، وانسخ مكتبتك احتياطيًا، والمزيد.",
-        "id": "Terima kasih telah memperbarui — dokumen v1 Anda dimigrasikan secara otomatis. Sisipkan gambar, cadangkan pustaka Anda, dan lainnya."
+        "en": "This confirms the app can fetch and display announcements from GitHub. No action needed.",
+        "ar": "هذا يؤكد أن التطبيق يمكنه جلب الإعلانات وعرضها من GitHub. لا حاجة لأي إجراء.",
+        "id": "Ini mengonfirmasi bahwa aplikasi dapat mengambil dan menampilkan pengumuman dari GitHub. Tidak perlu tindakan apa pun."
       },
       "learnMoreUrl": null,
       "minVersionCode": null,
       "maxVersionCode": null,
+      "platform": null
+    },
+    {
+      "id": "update-live-test",
+      "publishAt": "2026-09-27T00:00:00Z",
+      "expireAt": null,
+      "severity": "update",
+      "title": {
+        "en": "Test: update notice",
+        "ar": "اختبار: إشعار التحديث",
+        "id": "Uji coba: pemberitahuan pembaruan"
+      },
+      "body": {
+        "en": "This is a test of the non-blocking update notice — it targets this exact build only, so it will not show after a real update. No action needed; the owner will retire this item once the test is confirmed.",
+        "ar": "هذا اختبار لإشعار التحديث غير الإلزامي — يستهدف هذا الإصدار بالتحديد فقط، ولن يظهر بعد أي تحديث فعلي. لا حاجة لأي إجراء؛ سيقوم المالك بإزالة هذا العنصر بعد تأكيد الاختبار.",
+        "id": "Ini adalah uji coba pemberitahuan pembaruan yang tidak memblokir — hanya menargetkan build ini secara spesifik, sehingga tidak akan muncul setelah pembaruan sebenarnya. Tidak perlu tindakan; pemilik akan menghapus item ini setelah uji coba dikonfirmasi."
+      },
+      "learnMoreUrl": null,
+      "minVersionCode": 175,
+      "maxVersionCode": 175,
       "platform": null
     }
   ]
