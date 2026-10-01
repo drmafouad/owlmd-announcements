@@ -24,7 +24,7 @@
       "id": "update-live-test",
       "publishAt": "2026-09-27T00:00:00Z",
       "expireAt": null,
-      "severity": "update",
+      "severity": "info",
       "title": {
         "en": "Test: update notice",
         "ar": "اختبار: إشعار التحديث",
