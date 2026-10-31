@@ -1,6 +1,15 @@
 {
   "announcements": [
     {
+      "id": "v2_coming_soon",
+      "title": "🦉 OwlMD 2 is coming soon · OwlMD 2 قادم قريبًا",
+      "message": "A new OwlMD, rebuilt from the ground up, arrives as a free update in the coming weeks: folders and tags, a formatting toolbar, callouts, Arabic tables, PDF export with four themes, search, backup and app lock. Your notes saved in OwlMD and your recently opened files move over automatically, and your original files on your phone are never changed.\n\nنسخة جديدة كليًا من OwlMD تصلك تحديثًا مجانيًا خلال الأسابيع القادمة: مجلدات ووسوم، وشريط تنسيق، ومربعات تنبيه، وجداول عربية، وتصدير PDF بأربعة قوالب، وبحث، ونسخ احتياطي، وقفل للتطبيق. تنتقل ملاحظاتك المحفوظة في OwlMD والملفات التي فتحتها مؤخرًا تلقائيًا، ولا تتغيّر ملفاتك الأصلية على هاتفك أبدًا.",
+      "type": "info",
+      "timestamp": "2026-11-01T00:00:00Z",
+      "actionUrl": null,
+      "isImportant": true
+    },
+    {
       "id": "mandatory_update_1.1.60",
       "title": "⚠️ Critical Update Required - Version 1.1.60",
       "message": "fix and improvements regard sending files to app. NEW: Real-time syntax highlighting with subtle theme-aware colors.",
